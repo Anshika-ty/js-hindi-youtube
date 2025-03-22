@@ -49,3 +49,20 @@ const bigNumber = 3456543576654356754n
 // Object       "object"
 // Object        "function"
 // Object (host and does not implement [[Call]])	"undefined", "boolean", "number", or "string".
+
+//+=====================================================================================================
+//stack(primitive),  Heap(non-primitive)
+ let oldName="anshika"
+ let newName=oldName
+ newName="anshi tyagi"
+ console.log(oldName);
+ console.log(newName);
+
+ let user1={
+    email:"dcvgdshvhh@gmail.com",
+    nam:"anshu"
+ }
+let user2=user1
+user2.email="367367636236@gmil.com";
+console.log(user1.email);
+console.log(user2.email);
